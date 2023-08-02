@@ -11,7 +11,7 @@
     /* --button--color: #738276; */
     --background-color: #D8D9DA;
     --header--color: #ffffff;
-    --project-color: #000000;
+    --project-color: #4e4e4e;
     --hover-color: #616777;
     --btn-hover: #a89f89;
 }
@@ -64,8 +64,8 @@ li a:active .active {
 }
 
 .myinfo h1 {
-    font-size: 34px;
-    font-weight: 900;
+    font-size: 46px;
+    font-weight: bolder;
     letter-spacing: 2px;
     padding: 20px 0;
 }
@@ -85,7 +85,11 @@ li a:active .active {
     background-color: var(--background-color);
     color: var(--project-color);
 }
-
+.myproject h4{
+    text-align: center;
+    font-weight: 300;
+    padding-bottom: 40px;
+}
 .projectPic img {
     width: 100%;
     height: 90%;
@@ -102,7 +106,7 @@ li a:active .active {
 .subject h2 {
     letter-spacing: 4px;
     font-weight: 200;
-    padding: 15px 0;
+    padding: 5px 0;
 }
 
 .hov {
