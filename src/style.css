@@ -17,7 +17,7 @@
 }
 
 body {
-
+background-color: var(--info--back-color);
     color: var(--header--color);
     font-family: roboto;
     margin: 0;
@@ -160,23 +160,20 @@ hr {
 .aboutme h2 {
     font-weight: 100;
     letter-spacing: 1px;
-    font-size: 22px;
+    font-size: 40px;
 
 }
-
 .aboutme img {
-    width: 300px;
-    border-right: 6px solid var(--header--background);
+    padding: 20px 0;
+    padding-bottom: 10ch;
+    width: 90%;
     border-radius: 10px;
-    border-top: 6px solid var(--header--background);
     transition: 1s all;
+    border: 6px solid #ffffff;
+    background-color: #ffffff;
 }
 
-.aboutme img:hover {
-    border-right: 6px solid var(--header--background);
-    border-top: 6px solid var(--header--background);
-    -webkit-filter: drop-shadow(10px 4px 2px var(--header--background));
-}
+
 
 /* contact */
 .footer {
@@ -198,6 +195,7 @@ hr {
 }
 
 .coded {
+    margin-top: 20ch;
     display: flex;
     justify-content: center;
     color: #000;
@@ -214,5 +212,7 @@ hr {
         font-weight: 400;
         font-size: large;
     }
+
+
 
 }
