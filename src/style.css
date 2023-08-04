@@ -278,7 +278,7 @@ hr {
     }
 
     .coded {
-        -webkit-filter: blur(1.5rem);
+        -webkit-filter: blur(3px);
     }
 
 
