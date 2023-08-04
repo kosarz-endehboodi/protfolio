@@ -43,8 +43,8 @@ ul {
     flex-direction: row;
 }
 
-li:hover .hover {
-    color: rgba(156, 68, 68, 0.918);
+.navbar-nav li:hover a {
+   color: var(--btn-hover) !important;
 }
 
 a {
@@ -52,10 +52,10 @@ a {
     text-decoration: none;
 }
 
-li a:active .active {
-    color: rgb(155, 148, 202);
-}
-
+.navbar-nav li:active a {
+    color: rgb(145, 136, 179) !important;
+ }
+ 
 /* my protfolio */
 
 .myinfo {
@@ -178,6 +178,7 @@ hr {
 
 
 
+
 /* contact */
 .footer {
     padding: 29ch 0;
@@ -202,10 +203,9 @@ hr {
     background-repeat: no-repeat;
     background-size: cover;
     -webkit-filter: grayscale(80%);
-    width: 70%;
+    width: 90%;
     padding: 10px;
     margin: 0% auto;
-
     display: flex;
     justify-content: center;
     text-align: center;
@@ -219,9 +219,49 @@ hr {
     justify-content: space-evenly;
     flex-direction: row;
 }
-.footerColor{
+
+.myIcon i {
+    padding: 20px 0;
+}
+
+.footerColor {
     background-color: var(--background-color);
 }
+
+.contactMe {
+    margin: 0 auto;
+    width: 60%;
+    padding: 10px;
+    margin-bottom: 30px;
+    background-color: #a89f89;
+    color: #000000;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.contactMe div:last-of-type {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contactMe a {
+    background-color: #61677A;
+    padding: 10px 25px;
+    transition: 0.5s all;
+    border-radius: 5px;
+}
+
+.contactMe a:hover {
+
+    background-color: #5d616e;
+    padding: 9px 23px;
+    box-shadow: 5px 2px 4px var(--header--background);
+}
+
+
 
 
 @media only screen and (max-width:440px) {
@@ -235,7 +275,13 @@ hr {
         font-size: large;
     }
 
+    .coded {
+        -webkit-filter: blur(1.5rem);
+    }
 
+    .contactMe {
+        display: none;
+    }
 
 }
 
