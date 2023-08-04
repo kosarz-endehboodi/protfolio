@@ -44,7 +44,7 @@ ul {
 }
 
 .navbar-nav li:hover a {
-   color: var(--btn-hover) !important;
+    color: var(--btn-hover) !important;
 }
 
 a {
@@ -54,8 +54,8 @@ a {
 
 .navbar-nav li:active a {
     color: rgb(145, 136, 179) !important;
- }
- 
+}
+
 /* my protfolio */
 
 .myinfo {
@@ -254,6 +254,8 @@ hr {
     border-radius: 5px;
 }
 
+
+
 .contactMe a:hover {
 
     background-color: #5d616e;
@@ -279,9 +281,7 @@ hr {
         -webkit-filter: blur(1.5rem);
     }
 
-    .contactMe {
-        display: none;
-    }
+
 
 }
 
