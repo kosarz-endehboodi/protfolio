@@ -216,3 +216,31 @@ hr {
 
 
 }
+
+/*works */
+.projectPic_work img{
+   
+    width: 100%;
+    border-radius: 20px;
+}
+.projectPic_work>div >div>div{
+    padding:10px ;
+}
+.workTitle{
+display: flex;
+justify-content: center;
+flex-direction: column;
+text-align: center;
+}
+.hoverWork{
+    margin: 2px 0;
+    padding: 20px;
+    border-radius: 20px;
+    transition: 1s all;
+}
+.hoverWork:hover{
+    cursor: pointer;
+    color: #D8D9DA;
+    background-color: #61677A;
+    -webkit-filter: drop-shadow(2px 4px 2px var(--header--background));
+}
